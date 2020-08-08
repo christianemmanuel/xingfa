@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'PingFang SC';
+  src: url('../fonts/05e476e067ffef74ca5686f229c40a63.eot');
+  /* IE9*/
+  src: url('../fonts/05e476e067ffef74ca5686f229c40a63.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/05e476e067ffef74ca5686f229c40a63.woff2') format('woff2'),
+    url('../fonts/05e476e067ffef74ca5686f229c40a63.woff') format('woff'),
+    url('../fonts/05e476e067ffef74ca5686f229c40a63.ttf') format('truetype'),
+    url('../fonts/05e476e067ffef74ca5686f229c40a63.svg#PingFang SC')
+      format('svg');
+  /* iOS 4.1- */
+}
+body,
+html {
+  width: 100%;
+}
+body,
+html {
+  font-family: 'PingFang SC', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #0e121b;
+}
+p {
+  line-height: 1.35rem;
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+a {
+  color: #33bcd4;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+#app {
+  min-width: 1240px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.txt-center {
+  text-align: center;
+}
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  margin: auto;
+  width: 1240px;
+  position: relative;
+}
+html.entry,
+.entry body {
+  height: 100%;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.el-button {
+  border-radius: 0;
+}
+.icon {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-right: 8px;
+}
+.icon-lol {
+  width: 22px;
+  height: 24px;
+  background-image: url('../images/Home/图层-20.png');
+}
+.icon-dota {
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/Home/图层-21.png');
+}
+.icon-csgo {
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/Home/图层-22.png');
+}
+.section {
+  padding: 60px 0;
+  position: relative;
+}
+
+.v-1-header {
+  margin-bottom: 20px;
+  img {
+    height: 25px;
+    pointer-events: none;
+  }
+  p {
+    font-size: 14px;
+    color: #959dab;
+    line-height: 1.25rem;
+  }
+  hr {
+    width: 288px;
+    height: 1px;
+    border: 0;
+    background-color: #2e343c;
+    margin: 10px 0;
+  }
+}
+a {
+  transition: all ease-in-out 180ms;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1a2129; 
+}
+::-webkit-scrollbar-thumb {
+  background: #0c0f17; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 4px;
+}
