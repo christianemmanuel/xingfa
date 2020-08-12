@@ -9,6 +9,7 @@ import AboutUs from '@/views/AboutUs/AboutUs.vue'
 import App from '@/views/App/App.vue'
 import FishingGame from '@/views/FishingGame/FishingGame.vue'
 import XingPowerCompetition from '@/views/XingPowerCompetition/XingPowerCompetition.vue'
+import ChessAndCardGame from '@/views/ChessAndCardGame/ChessAndCardGame.vue'
 
 Vue.use(VueRouter)
 
@@ -47,6 +48,11 @@ const routes = [
 		path: '/xing-power-competition',
 		name: 'XingPowerCompetition',
 		component: XingPowerCompetition
+	},
+	{
+		path: '/chess-and-card-game',
+		name: 'ChessAndCardGame',
+		component: ChessAndCardGame
 	},
 	{
 		path: '*',

@@ -115,6 +115,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 2;
   .container {
     display: flex;
     align-items: center;

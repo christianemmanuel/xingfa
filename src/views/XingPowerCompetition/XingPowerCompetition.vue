@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section dj-game-page">
+    <section class="dj-game-page">
       <div class="fishing-game-section">
         <div class="container">
           <div class="game-detail-left">
@@ -21,24 +21,19 @@
             <div class="game-info">
               <ul>
                 <li>
-                  <i class="icon icon-flagship"></i>
-                  <span>旗舰厅</span>
+                  <i class="icon icon-dota"></i>
                 </li>
                 <li>
-                  <i class="icon icon-international"></i>
-                  <span>国际厅</span>
+                  <i class="icon icon-masters"></i>
                 </li>
                 <li>
-                  <i class="icon icon-vip"></i>
-                  <span>贵宾厅</span>
+                  <i class="icon icon-tga"></i>
                 </li>
                 <li>
-                  <i class="icon icon-baccarat"></i>
-                  <span>百家乐</span>
+                  <i class="icon icon-league"></i>
                 </li>
                 <li>
-                  <i class="icon icon-dragon"></i>
-                  <span>龙虎</span>
+                  <i class="icon icon-the-summit"></i>
                 </li>
               </ul>
 
@@ -47,12 +42,9 @@
 
           </div>
 
-          <div class="game-detail-right">
-            
-          </div>
-          <img src="../../assets/images/dj/图层-233.png" class="big-img" alt="img">
+          <img src="../../assets/images/dj/图层-233.png" class="big-img-1" alt="img">
 
-          <!-- <img src="../../assets/images/FishingGame/图层-367.png" class="bubble" alt="图层-367"> -->
+          <img src="../../assets/images/dj/图层-22.png" class="effect-1" alt="图层-22">
           
         </div>
 
@@ -92,13 +84,53 @@ export default {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding-top: 60px;
-  min-height: 864px;
+  min-height: 793px;
+  .game-detail-left {
+    margin-top: 85px;
+  }
+  .main-nav-game {
+    bottom: 15px;
+  }
 }
 .big-img-1 {
-  width: 958px;
+  width: 878px;
   position: absolute;
-  top: -63px;
+  top: 0;
   right: -143px;
+  z-index: 2;
+}
+img.effect-1 {
+  width: 878px;
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+.game-info  {
+  .icon {
+    &.icon-dota {
+      background-image: url("../../assets/images/dj/dj_icon.png");
+      background-position: 0 0;
+    }
+    &.icon-masters {
+      background-image: url("../../assets/images/dj/dj_icon.png");
+      background-position: -81px 0;
+      width: 55px;
+    }
+    &.icon-tga {
+      background-image: url("../../assets/images/dj/dj_icon.png");
+      background-position: -174px 0;
+      width: 48px;
+    }
+    &.icon-league {
+      background-image: url("../../assets/images/dj/dj_icon.png");
+      background-position: -264px -3px;
+      height: 49px;
+    }
+    &.icon-the-summit {
+      background-image: url("../../assets/images/dj/dj_icon.png");
+      background-position: -348px -2px;
+      width: 61px;
+    }
+  }
 }
 </style>

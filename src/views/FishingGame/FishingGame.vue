@@ -242,6 +242,7 @@ section.section.fishing-game-page {
   position: absolute;
   width: 100%;
   bottom: 27px;
+  z-index: 3;
   ul {
     display: flex;
     align-items: center;
@@ -265,6 +266,7 @@ section.section.fishing-game-page {
           background-repeat: no-repeat;
           background-position: center;
         }
+        &:hover,
         &.router-link-exact-active {
           color: #32ceed;
           &:before {
