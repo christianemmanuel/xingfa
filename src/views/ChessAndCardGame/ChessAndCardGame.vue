@@ -4,7 +4,7 @@
       <div class="fishing-game-section">
         <div class="container">
           <div class="game-detail-left">
-            <img src="../../assets/images/qp/图层-337.png" alt="图层-337" class="title 图层-337">
+            <img src="../../assets/images/qp/图层-337.png" alt="图层-337" class="title">
 
             <div class="game-detail-list">
               <div class="game-detail-item">
@@ -133,37 +133,4 @@ export default {
     }
   }
 }
-
-
-
-
-
-// .game-info  {
-//   .icon {
-//     &.icon-dota {
-//       background-image: url("../../assets/images/dj/dj_icon.png");
-//       background-position: 0 0;
-//     }
-//     &.icon-masters {
-//       background-image: url("../../assets/images/dj/dj_icon.png");
-//       background-position: -81px 0;
-//       width: 55px;
-//     }
-//     &.icon-tga {
-//       background-image: url("../../assets/images/dj/dj_icon.png");
-//       background-position: -174px 0;
-//       width: 48px;
-//     }
-//     &.icon-league {
-//       background-image: url("../../assets/images/dj/dj_icon.png");
-//       background-position: -264px -3px;
-//       height: 49px;
-//     }
-//     &.icon-the-summit {
-//       background-image: url("../../assets/images/dj/dj_icon.png");
-//       background-position: -348px -2px;
-//       width: 61px;
-//     }
-//   }
-// }
 </style>

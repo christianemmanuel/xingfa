@@ -10,6 +10,8 @@ import App from '@/views/App/App.vue'
 import FishingGame from '@/views/FishingGame/FishingGame.vue'
 import XingPowerCompetition from '@/views/XingPowerCompetition/XingPowerCompetition.vue'
 import ChessAndCardGame from '@/views/ChessAndCardGame/ChessAndCardGame.vue'
+import XingfaSports from '@/views/XingfaSports/XingfaSports.vue'
+import LiveEntertainment from '@/views/LiveEntertainment/LiveEntertainment.vue'
 
 Vue.use(VueRouter)
 
@@ -53,6 +55,16 @@ const routes = [
 		path: '/chess-and-card-game',
 		name: 'ChessAndCardGame',
 		component: ChessAndCardGame
+	},
+	{
+		path: '/xing-fa-sports',
+		name: 'XingfaSports',
+		component: XingfaSports
+	},
+	{
+		path: '/live-entertainment',
+		name: 'LiveEntertainment',
+		component: LiveEntertainment
 	},
 	{
 		path: '*',

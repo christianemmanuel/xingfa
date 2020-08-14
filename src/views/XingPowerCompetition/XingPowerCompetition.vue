@@ -42,8 +42,6 @@
 
           </div>
 
-          <img src="../../assets/images/dj/图层-233.png" class="big-img-1" alt="img">
-
           <img src="../../assets/images/dj/图层-22.png" class="effect-1" alt="图层-22">
           
         </div>
@@ -59,6 +57,7 @@
           </ul>
         </div>
       </div>
+      <img src="../../assets/images/dj/图层-233.png" class="big-img-1" alt="img">
     </section>
     <Footer />
   </div>
@@ -96,7 +95,7 @@ export default {
   width: 878px;
   position: absolute;
   top: 0;
-  right: -143px;
+  right: 0;
   z-index: 2;
 }
 img.effect-1 {

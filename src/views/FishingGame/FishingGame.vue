@@ -211,6 +211,10 @@ export default {
   cursor: pointer;
   position: relative;
   margin: 50px auto 0 auto;
+  transition: all ease-in-out 180ms;
+  &:hover {
+    color: #afc5e3;
+  }
   &:after {
     position: absolute;
     display: block;
